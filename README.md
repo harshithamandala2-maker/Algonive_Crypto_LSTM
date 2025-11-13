@@ -71,13 +71,16 @@ TensorFlow / Keras
 
 yFinance (Yahoo Finance API)
 
-📁 Folder Structure
+## 📁 Folder Structure
 Crypto_LSTM_Project/
 │
-├── crypto_lstm.py              # Main Python code file
-├── requirements.txt            # Python library dependencies
-├── README.md                   # Project documentation
-└── (optional) output_plot.png  # Visualization of predicted vs actual prices
+├── crypto_lstm.ipynb    # Jupyter Notebook containing model code
+├── app.py               # Streamlit web app
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
+└── result.jpg           # Visualization of Actual vs Predicted Bitcoin Prices
+
+
 
 👩‍💻 Author
 
@@ -96,6 +99,7 @@ It serves as a foundation for building more advanced forecasting, trading, and a
 Below is the comparison between **Actual Bitcoin Prices** and **Predicted Prices** using the LSTM model:
 
 ![Bitcoin Price Prediction](result.jpg)
+
 
 
 
